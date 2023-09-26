@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: build and deploy on main
-        uses: docker://ghcr.io/jeevanions/initium-cli:latest
+        uses: docker://ghcr.io/nearform/initium-cli:latest
         with:
           args: onmain
         env:
